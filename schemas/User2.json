@@ -4,5 +4,5 @@
     "__alwaysAllowNull": "true",
     "__jsr310ConversionEnabled": "false"
   },
-  "schema": "{\n  \"type\": \"record\",\n  \"name\": \"User\",\n  \"namespace\": \"pl.trojczak.playground.pulsar.schema\",\n  \"fields\": [\n    {\n      \"name\": \"age\",\n      \"type\": [\"null\", \"int\"],\n      \"default\": null\n    },\n    {\n      \"name\": \"name\",\n      \"type\": [\"null\", \"string\"],\n      \"default\": null\n    },\n    {\n      \"name\": \"active\",\n      \"type\": [\"null\", \"boolean\"],\n      \"default\": null\n    }\n  ]\n}"
+  "schema": "{\n  \"type\": \"record\",\n  \"name\": \"User\",\n  \"namespace\": \"pl.trojczak.poc.pulsar.schema\",\n  \"fields\": [\n    {\n      \"name\": \"age\",\n      \"type\": [\"null\", \"int\"],\n      \"default\": null\n    },\n    {\n      \"name\": \"name\",\n      \"type\": [\"null\", \"string\"],\n      \"default\": null\n    },\n    {\n      \"name\": \"active\",\n      \"type\": [\"null\", \"boolean\"],\n      \"default\": null\n    }\n  ]\n}"
 }
